@@ -50,6 +50,7 @@
         <configuration>
         <goals>pre-integration-test</goals>
         <preparationGoals>package</preparationGoals>
+        <pushChanges>false</pushChanges>
           <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>
       </plugin>
