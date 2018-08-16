@@ -2,13 +2,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mkyong</groupId>
 	<artifactId>NumberGenerator</artifactId>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.5</version>
 	<name>NumberGenerator</name>
 	<url>http://maven.apache.org</url>
 	<scm>
         <connection>scm:git:https://github.com/thikero/mavens.git</connection>
         <developerConnection>scm:git:https://github.com/thikero/mavens.git</developerConnection>
-        <tag>v1.0</tag>
+        <tag>v1.5</tag>
     </scm>
 	<properties>
 	<maven.compiler.target>1.8</maven.compiler.target>
