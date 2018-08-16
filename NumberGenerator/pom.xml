@@ -6,8 +6,8 @@
 	<name>NumberGenerator</name>
 	<url>http://maven.apache.org</url>
 	<scm>
-        <connection>scm:git:https://github.com/thikero/mavens.git</connection>
-        <developerConnection>scm:git:https://github.com/thikero/mavens.git</developerConnection>
+        <connection>scm:git@github.com/thikero/mavens.git</connection>
+        <developerConnection>scm:git@github.com/thikero/mavens.git</developerConnection>
         <tag>v1.0</tag>
     </scm>
 	<properties>
@@ -50,7 +50,7 @@
         <configuration>
         <goals>pre-integration-test</goals>
         <preparationGoals>package</preparationGoals>
-        <pushChanges>false</pushChanges>
+        <pushChanges>true</pushChanges>
           <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>
       </plugin>
