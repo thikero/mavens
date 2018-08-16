@@ -6,8 +6,8 @@
 	<name>NumberGenerator</name>
 	<url>http://maven.apache.org</url>
 	<scm>
-        <connection>scm:git@github.com/thikero/mavens.git</connection>
-        <developerConnection>scm:git@github.com/thikero/mavens.git</developerConnection>
+        <connection>scm:git:git@github.com/thikero/mavens.git</connection>
+        <developerConnection>scm:git:git@github.com/thikero/mavens.git</developerConnection>
         <tag>v1.0</tag>
     </scm>
 	<properties>
